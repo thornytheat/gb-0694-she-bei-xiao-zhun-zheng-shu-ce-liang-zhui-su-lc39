@@ -1,0 +1,16 @@
+.tag{display:inline-block;border:1px solid var(--line-strong);padding:1px 7px;font-size:11px;margin-left:6px}
+.tag--current{border-color:var(--accent);color:var(--accent)}
+.actions-cell{text-align:left;white-space:nowrap}
+.audit{list-style:none;padding:0;margin:12px 0 0;font:11px var(--font-num);max-height:220px;overflow:auto}
+.audit li{padding:5px 0;border-bottom:1px dotted var(--line)}
+.audit code{color:var(--ink-muted)}
+.audit small{color:var(--ink-muted)}
+tr.status--MISSING td:first-child{box-shadow:inset 3px 0 0 #b58a00}
+tr.status--REVOKED td:first-child{box-shadow:inset 3px 0 0 var(--bad)}
+tr.status--EXPIRED td:first-child{box-shadow:inset 3px 0 0 var(--ink-muted)}
+tr.status--ACTIVE td:first-child{box-shadow:inset 3px 0 0 #2e7d4f}
+.preview{margin-top:12px}
+.preview-card{border:1px dashed var(--line-strong);padding:12px;background:var(--surface-2)}
+.preview-card p{margin:8px 0;font:12px var(--font-num)}
+label{font:12px var(--font-ui);display:inline-flex;gap:6px;align-items:center}
+input[type=date]{background:var(--surface-2);border:1px solid var(--line-strong);color:var(--ink);padding:5px;font:12px var(--font-num)}
